@@ -1,0 +1,20 @@
+{
+    "name": "rorystandley/postcodeio",
+    "description": "A package for querying the postcodes.io web service",
+    "authors": [
+        {
+            "name": "Rory Standley",
+            "email": "rorystandley@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle-services": "~0.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "rorystandley\\postcodeio\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
