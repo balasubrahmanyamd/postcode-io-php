@@ -1,21 +1,13 @@
 <?php
 
-namespace rorystandley\PostcodeIO;
+namespace rorystandley\postcodeio;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Command\Guzzle\Description;
 use GuzzleHttp\Command\Guzzle\GuzzleClient;
 
-class PostcodeIO 
+class postcodeio 
 {
-	public static function test()
-	{
-		echo '<pre>';
-		print_r('this is my test');
-		echo '</pre>';
-		exit;
-	}
-
 	/**
      * @var string The default base URL.
      */
