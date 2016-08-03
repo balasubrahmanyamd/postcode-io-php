@@ -11,5 +11,10 @@
         "php": ">=5.4.0",
         "guzzlehttp/guzzle-services": "~0.1"
     },
+    "autoload": {
+        "psr-4": {
+            "rorystandley\\postcodeio\\": "src/"
+        }
+    },
     "license": "MIT"
 }
